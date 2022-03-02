@@ -9,7 +9,7 @@ module.exports = shipit => {
       repositoryUrl: 'https://github.com/leomSipios/my-pokedex.git',
     },
     staging: {
-      servers: 'leom@sipios.com',
+      servers: 'deploy@staging.super-project.com',
     },
   })
 }
