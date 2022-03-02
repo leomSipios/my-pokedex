@@ -1,0 +1,8 @@
+.pokemon_card{
+    padding-block: 5vh;
+}
+
+.pokemon_card:hover{
+     background-color : #EEE6D8;
+     cursor:pointer;
+}

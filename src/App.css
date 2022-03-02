@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.home_link{
+    background-color : #A0DEDF;
+    height:10vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
