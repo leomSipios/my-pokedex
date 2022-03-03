@@ -5,11 +5,12 @@ module.exports = shipit => {
 
   shipit.initConfig({
     default: {
-      deployTo: '/var/apps/my-pokedex',
+      deployTo: '/home/leom/my-pokedex',
       repositoryUrl: 'https://github.com/leomSipios/my-pokedex.git',
     },
     staging: {
-      servers: 'deploy@staging.super-project.com',
+      servers: 'leom@34.125.55.105',
+      key: 'C:/Users/leome/OneDrive/Documents/Sipios/sshKey'
     },
   })
 }
