@@ -1,4 +1,4 @@
-#!/bin/bash -eu
-cd /c/Users/leome/OneDrive/Documents/Sipios/my-pokedex
+#!/bin/bash
+cd s/Formation/React/my-pokedex
 git pull origin master
-rcp -r . /var/www/html --exclude .git
+scp -r . /var/www/html --exclude .git
